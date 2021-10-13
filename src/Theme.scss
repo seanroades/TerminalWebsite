@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'sabofilled';
+  src: url('./Fonts/sabo-filled-webfont.woff2') format('woff2'),
+       url('./Fonts/sabo-filled-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'saboregular';
+  src: url('./Fonts/sabo-regular-webfont.woff2') format('woff2'),
+       url('./Fonts/sabo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$theme-colors: (
+  "PRIMARY_COLOR": rgb(0, 0, 0),
+  "SECONDARY_COLOR": hsl(90%,	100%,	40%),
+  "ACCENT_COLOR": white,
+  "ALPHA_VALUES": transparent
+);
+
+$theme-fonts: (
+  "PRIMARY_FONT": "VT323",
+  "SECONDARY_FONT": "saboregular"
+);
+
+$theme-font-sizes: (
+  "EXTRA_LARGE": 6em,
+  "LARGE": 4em,
+  "MEDIUM": 2.5em,
+  "SMALL": 1.8em,
+  "EXTRA_SMALL": 0.5em
+)

@@ -1,0 +1,97 @@
+@import "../../Theme.scss";
+
+.NavbarBG {
+  background-color: map-get($theme-colors, ALPHA_VALUES);
+  width: 100%;
+  padding-top: 15px;
+}
+
+.HeaderMod {
+  margin: auto;
+  padding-left: 1em;
+  display: inline;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline 0.1em;
+    color: map-get($theme-colors, "SECONDARY_COLOR")
+  }
+}
+
+.SubItemsGroup {
+  display: inline;
+  float: right;
+  margin-right: 1.5em;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .collapse {
+      display: none !important;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: get-map($theme-colors, "SECONDARY_COLOR");
+  min-width: 160px;
+  border: 2px solid map-get($theme-colors, "SECONDARY_COLOR");
+  line-height: 80%;
+  z-index: 1;
+}
+
+.dropbtn {
+  background-color: map-get($theme-colors, "SECONDARY_COLOR");
+  cursor: url('../../Images/OldPointer2.png');	
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0.1em;
+  font-family: map-get($theme-fonts, "PRIMARY_FONT");
+  font-size: map-get($theme-font-sizes, "MEDIUM");
+  line-height: 80%;
+  border-radius: 0px;
+  vertical-align: middle;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.35) !important;
+  background-color: map-get($theme-colors, "SECONDARY_COLOR");
+  box-shadow: 5px 5px 0px map-get($theme-colors, "SECONDARY_COLOR");
+  border: 2px solid black;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: map-get($theme-colors, "SECONDARY_COLOR");
+  font-family: map-get($theme-fonts, "PRIMARY_FONT");
+  font-size: map-get($theme-font-sizes, "SMALL");
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: black;
+}
+
+.floater {
+  float: right;
+  padding-right: 1.5em;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: map-get($theme-colors, "SECONDARY_COLOR");
+  color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  float: left;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: map-get($theme-colors, "SECONDARY_COLOR");
+}

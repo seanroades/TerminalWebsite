@@ -1,0 +1,32 @@
+
+.Center {
+  height: 70vh;
+  position: relative;
+}
+
+.MidMod {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Blinker {
+  animation-name: light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark, light, dark;
+  animation-delay: 0s, 0.1s, 0.2s, 0.3s, 0.4s, 0.7s, 0.8s, 1.1s, 1.2s, 1.3s, 1.4s, 1.7s, 2s, 2.3s, 2.4s, 2.5s, 2.8s, 2.9s, 3s, 3.3s, 3.4s, 3.5s, 3.8s, 4.1s, 4.2s, 4.5s, 4.6s, 4.9s, 5.2s, 5.3s, 5.4s, 5.7s, 6s, 6.3s, 6.4s, 6.5s, 6.6s, 6.7s, 7s, 7.1s, 7.4s, 7.5s, 7.6s, 7.7s, 7.8s, 7.9s, 8.2s, 8.3s, 8.4s, 8.7s, 8.8s, 9.1s, 9.2s, 9.3s, 9.4s, 9.5s, 9.8s, 9.9s, 10s, 10.1s, 10.4s, 10.5s, 10.8s, 10.9s, 11s, 11.1s, 11.4s, 11.5s, 11.8s, 12.1s, 12.2s, 12.3s, 12.4s, 12.7s, 13s, 13.1s, 13.2s, 13.3s, 13.6s, 13.7s, 13.8s, 14.1s, 14.2s, 14.3s, 14.4s, 14.5s, 14.8s, 14.9s, 15s, 15.3s, 15.4s, 15.5s, 15.6s, 15.9s, 16s, 16.1s, 16.2s, 16.5s, 16.8s, 17.1s, 17.2s, 17.5s, 17.6s, 17.7s, 18s, 18.3s, 18.4s, 18.7s, 18.8s, 19.1s, 19.4s, 19.7s, 19.8s, 21.1s, 21.2s;
+  animation-duration: 0.1s, 0.1s, 0.1s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.3s, 0.3s, 0.3s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.3s, 0.3s, 0.1s, 0.3s, 0.1s, 0.3s, 0.3s, 0.1s, 0.1s, 0.3s, 0.3s, 0.3s, 0.1s, 0.2s, 0.1s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.1s, 0.3s, 0.2s, 0.1s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.3s, 0.1s, 0.3s, 0.3s, 0.1s, 0.1s, 0.1s, 0.3s, 0.3s, 0.1s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.3s, 0.1s, 0.1s, 0.1s, 0.3s, 0.3s, 0.3s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.3s, 0.1s, 0.3s, 0.3s, 0.3s, 0.1s, 0.3s, 0.1s;
+}
+
+@keyframes dark {
+  to {
+    opacity: 70%;
+  }
+}
+
+@keyframes light {
+  to {
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+.FileImage {
+  position: absolute;
+  width: 408px;
+  height: 240px;
+}
+
+.ImageContainer {
+  width: 408px;
+  height: 240px;
+}
+.FileTextContainer {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.FileTextDescription {
+  margin: 0;
+  padding: 0;
+}
+
+.LineHeight {
+  margin-top: 10px;
+  line-height: 70%;
+}
+
+.CenterButton {
+  position: absolute;
+  bottom: 22px;
+}
+
+.ProjectContainerSingle {
+  position: relative;
+  width: 408px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.LinkText {
+  text-shadow: 0 2px 2px rgba(0,0,0,0.35) !important;
+  color: black !important;
+  text-decoration: none;
+  cursor: url('../../Images/OldPointer2.png'), auto;	
+}
