@@ -1,6 +1,5 @@
 import '../../App.scss'
 import './TextRoulette.scss'
-import React, { useState } from 'react'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import TR1 from '../../Images/TextRoulette/TR1.png'

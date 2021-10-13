@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import './App.scss';
 import Navbar from './Components/Navbar/Navbar';
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
-  Link,
   useHistory
 } from "react-router-dom";
 import Home from './Pages/Home/Home'

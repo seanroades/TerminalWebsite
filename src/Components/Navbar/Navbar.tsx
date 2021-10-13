@@ -1,5 +1,4 @@
 import './Navbar.scss'
-import { useState, useEffect } from 'react';
 import useWindowDimensions from '../UseWindowDimensions'
 import { Link } from 'react-router-dom';
 import '../../App.scss'
@@ -8,9 +7,9 @@ interface NavbarProps {
   pages: string[];
   links: string[];
 } 
-
+// eslint-disable-next-line
 export default function NavbarProps(props: NavbarProps) {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   const pages = []
   const smallPages = []

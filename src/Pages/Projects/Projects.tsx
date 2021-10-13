@@ -1,9 +1,7 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import Navbar from '../../Components/Navbar/Navbar'
+import { Row, Col } from 'react-bootstrap';
 import ProjectDes from '../../Components/ProjectDes/ProjectDes'
 import '../../App.scss'
 import './Projects.scss'
-import Terminal from '../../Components/Terminal/Terminal'
 
 function Projects() {
   return (

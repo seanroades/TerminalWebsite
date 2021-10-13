@@ -1,5 +1,4 @@
 import buttonFrame from '../../Images/CorrectFrame.png'
-import Navbar from '../../Components/Navbar/Navbar'
 import '../../App.scss'
 import './ProjectDes.scss'
 import { Link } from 'react-router-dom'

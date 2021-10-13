@@ -1,8 +1,5 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import Navbar from '../../Components/Navbar/Navbar'
 import '../../App.scss'
 import './AboutMe.scss'
-import Terminal from '../../Components/Terminal/Terminal'
 
 function AboutMe() {
   return (

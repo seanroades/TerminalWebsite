@@ -67,9 +67,9 @@ var title9 = String.raw`
 1010101010101010101
  10101001010101010
               `;
-var title10 = String.raw`
-10101001010101010
-`;
+// var title10 = String.raw`
+// 10101001010101010
+// `;
 var bombs = [title1, title2, title3, title4, title5, title6, title7, title8, title9]
     const [count, setCount] = useState(0);
     const [currentBomb, setCurrentBomb] = useState(bombs[0]);

@@ -1,6 +1,5 @@
 import '../../App.scss'
 import './Zombiegeist.scss'
-import React, { useState } from 'react'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import ZG1 from '../../Images/Zombiegeist/ZG1.png'

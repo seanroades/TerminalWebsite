@@ -1,5 +1,4 @@
 import '../../App.scss'
-import React, { useState } from 'react'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import SB1 from '../../Images/StudiBuddi/SB1.png'
